@@ -1,0 +1,79 @@
+/*ANIMATION
+#rect {
+    background-color: indianred;
+    width: 300px;
+    height: 50p;
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    position: relative;
+    left: 150px;
+}
+
+div {
+    position: relative;
+    left: -600px;
+    background-color: indianred;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    color: whitesmoke;
+    margin: 10px;
+}*/
+
+body {
+    background-color: #EEE8AA;
+    font-family: sans-serif;
+    color: #8B4513
+}
+
+h1 {
+    color: #A0522D;
+    display: block;
+    margin-left: 500px;
+}
+
+#container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    height: 200px;
+    margin: 5px;
+    width: 255px
+}
+
+.user {
+    margin: 10px;
+    padding: 5px;
+}
+
+.user h2 {
+    color: #A0522D;
+}
+
+select,
+input {
+    background-color: #FAFAD2;
+    margin:5px 5px 10px 5px;
+}
+
+input {
+    border: 0;
+    width: 210px;
+    color: #A0522D;
+}
+
+input[type='submit'] {
+    width: 170px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 600
+}
+#order{
+    visibility:hidden;
+}

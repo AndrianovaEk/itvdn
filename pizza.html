@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>js lessons</title>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <h1>ЗАКАЗ ПИЦЦЫ</h1>
+    <form>
+        <select id='size'>
+            <option>Выберите размер пиццы </option>
+            <option>Большая 33 см</option>
+            <option>Средняя 22 см</option>
+            <option>Маленькая 16 см</option>
+        </select>
+<br>
+        <select id='filling'>
+            <option>Выберите начинку</option>
+            <option>Грибы</option>
+            <option>Ветчина</option>
+            <option>Сыр</option>
+            <option>Оливки</option>
+            <option>Помидоры</option>
+        </select>
+
+        <div id='container'>
+            <img class='photo' src='http://supercook.ru/images-pizza/pizza-mushroom-02.jpg'>
+            <img class='photo' src='http://www.djurenko.com/wp-content/uploads/2013/04/pizza-con-prosciutto_10.jpg?x60938'>
+            <img class='photo' src='http://goodpizza.ru/wp-content/uploads/2010/02/clip_image004.jpg'>
+            <img class='photo' src='http://99px.ru/sstorage/53/2013/03/tmb_65066_7041.jpg'>
+            <img class='photo' src='http://www.supergotovka.ru/resize/262/348/w/uploads/recipes/1376904757.jpg'>
+        </div>
+        <input type='text' id='order'/>
+    </form>
+
+    <h2>Оформление заказа</h2>
+    <form class='user'>
+        <label>Ваше имя: <input type='text' class='user' name='name' placeholder='Введите Ваше имя' required/></label><br>
+        <label>Ваш телефон: <input type='tel' class='user' name='tel' placeholder='Введите Ваш номер телефона' required/></label><br>
+        <label>Ваша электронная почта: <input type='e-mail' class='user' name='mail' placeholder='Введите Вашу электронную почту'/></label><br>
+        <input class='user' type='submit' value='СДЕЛАТЬ ЗАКАЗ' />
+    </form>
+
+    <script src='lessons.js'></script>
+
+</body>
+
+</html>
